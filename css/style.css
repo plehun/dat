@@ -3897,6 +3897,10 @@ textarea.tab__input {
   font-weight: 700;
 }
 
+.pay__list {
+  padding-left: 25px;
+}
+
 .text-link {
   font-weight: 700;
   color: #1E6140;
@@ -5445,6 +5449,10 @@ footer {
 
   .next-line {
     display: none;
+  }
+
+  .deliv__item {
+    padding: 0;
   }
 
   .deliv__item:nth-child(1) {
