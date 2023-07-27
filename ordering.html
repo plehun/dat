@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.min.css">
   <title>ordering</title>
-  <link rel="icon" type="image/x-icon" href="../images/favicon.svg">
+  <link rel="icon" type="image/x-icon" href="images/favicon.svg">
 </head>
 
 
@@ -273,10 +273,15 @@
                 <p class="basket-popup__amount-text">
                   Кількість
                 </p>
+                <div class="plus-minus">
+                  <button class="minus"></button>
+                </div>
 
-                <button class="minus"></button>
                 <span class="basket-popup__number">1</span>
-                <button class="plus"></button>
+                <div class="plus-minus">
+                  <button class="plus"></button>
+                </div>
+
               </div>
 
 
@@ -767,7 +772,8 @@
 
                 <div class="form__title">Оплата</div>
                 <div class="form__inner">
-                  <div class="sort">
+                  <div class="form__sort">
+                    <div class="sort">
                     <label class="custom-checkbox2">
                       <input type="radio" name="sort" value="Готівка" checked>
                       <span>Готівка</span>
@@ -783,67 +789,112 @@
                       <span>Оплата картою онлайн</span>
                     </label>
                   </div>
+                  </div>
+
+                </div>
+              </div>
+              <div class="form__wrap">
+                <div class="form__in-basket">
+                  <div class="form__title">Товари у кошику</div>
+                  <div class="form__goods">
+
+                    <div class="product">
+
+                      <div class="product__img">
+                        <img src="images/tovar1.webp" alt="img">
+                      </div>
+                      <div class="product__text form__text">
+                        <a class="product__link" href="/dat/tovar.html">Гербіцид Комманд®, ФМС УКРАЇНА</a>
+                      </div>
+
+                      <div class="product__block form__block">
+
+                        <div class="product__info form__info">
+                          <div class="product__price">
+                            7814,63 грн
+                        </div>
+                          <span class="product__info-sum">x1</span>
+                        </div>
+
+                        <div class="product__close">
+                          <button class="product__close-btn close">
+                            <span></span>
+                          </button>
+                        </div>
+                      </div>
+
+                    </div>
+
+                    <div class="product">
+
+                      <div class="product__img">
+                        <img src="images/tovar1.webp" alt="img">
+                      </div>
+                      <div class="product__text form__text">
+                        <a class="product__link" href="/dat/tovar.html">Гербіцид Комманд®, ФМС УКРАЇНА</a>
+                      </div>
+
+                      <div class="product__block form__block">
+
+                        <div class="product__info form__info">
+                          <div class="product__price">
+                            7814,63 грн
+                        </div>
+                          <span class="product__info-sum">x1</span>
+                        </div>
+
+                        <div class="product__close">
+                          <button class="product__close-btn close">
+                            <span></span>
+                          </button>
+                        </div>
+                      </div>
+
+                    </div>
+
+                    <div class="product">
+
+                      <div class="product__img">
+                        <img src="images/tovar1.webp" alt="img">
+                      </div>
+                      <div class="product__text form__text">
+                        <a class="product__link" href="/dat/tovar.html">Гербіцид Комманд®, ФМС УКРАЇНА</a>
+                      </div>
+
+                      <div class="product__block form__block">
+
+                        <div class="product__info form__info">
+                          <div class="product__price">
+                            7814,63 грн
+                        </div>
+                          <span class="product__info-sum">x1</span>
+                        </div>
+
+                        <div class="product__close">
+                          <button class="product__close-btn close">
+                            <span></span>
+                          </button>
+                        </div>
+                      </div>
+
+                    </div>
+                    
+                  </div>
+
+                  <div class="form__rezult">
+                    <div class="form__rezult-numbers">
+                      <span class="form__rezult-text">Разом:</span> 2 товари
+                    </div>
+                    <div class="form__rezult-numbers">
+                      <span class="form__rezult-text">На сумму:</span> 15 629,26
+                    </div>
+                  </div>
+
+                  <a href="/dat/thank.html" class="btn btn-center"><span>Підтвердити заказ</span> </a>
+
                 </div>
               </div>
 
-              <div class="form__in-basket">
-                <div class="form__title">Товари у кошику</div>
-                <div class="form__goods">
-                  <div class="form__goods-item">
-                    <div class="form__img">
-                      <img src="images/tovar1.webp" alt="img">
-                    </div>
-                    <div class="form__descr">
-                      <a class="form__descr-text" href="/dat/tovar.html">Гербіцид Комманд®, ФМС УКРАЇНА</a>
-                      <div class="form__priсe">
-                        <span class="form__priсe-cost">
-                          7814,63 грн
-                        </span>
-                        <span class="form__priсe-sum">x1</span>
-                      </div>
-                    </div>
-                    <div class="form__close">
-                      <button class="close">
-                        <span></span>
-                      </button>
-                    </div>
-
-                  </div>
-
-                  <div class="form__goods-item">
-                    <div class="form__img">
-                      <img src="images/tovar1.webp" alt="img">
-                    </div>
-                    <div class="form__descr">
-                      <a class="form__descr-text" href="/dat/tovar.html">Гербіцид Комманд®, ФМС УКРАЇНА</a>
-                      <div class="form__priсe">
-                        <span class="form__priсe-cost">
-                          7814,63 грн
-                        </span>
-                        <span class="form__priсe-sum">x1</span>
-                      </div>
-                    </div>
-                    <div class="form__close">
-                      <button class="close">
-                        <span></span>
-                      </button>
-                    </div>
-                  </div>
-
-                </div>
-
-                <div class="form__rezult">
-                  <div class="form__rezult-numbers">
-                    <span class="form__rezult-text">Разом:</span> 2 товари
-                  </div>
-                  <div class="form__rezult-numbers">
-                    <span class="form__rezult-text">На сумму:</span> 15 629,26
-                  </div>
-                </div>
-
-                <a href="/dat/thank.html" class="btn btn-center"><span>Підтвердити заказ</span> </a>
-
-              </div>
 
             </form>
 
